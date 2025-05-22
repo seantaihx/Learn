@@ -5,9 +5,9 @@ d = "4"
 e = "True"
 f = True
 
-print(type(a))
-a = str(a)
-print(type(a))
+print(type(a))              #Check type
+a = str(a)                  #Change the type of the value in the variable
+print(type(a))              #Check again the type
 print('\n')
 
 

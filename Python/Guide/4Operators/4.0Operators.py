@@ -34,7 +34,10 @@ ASCII value: Most of the character has a binary value to tell the computer what 
 '''
 Logical Operator: Return bool type
 
-and, or
+and, or, &, |
+
+& is same as and
+| is same as or
 
 True and True = True
 True and False = False
@@ -43,4 +46,11 @@ False and False = False
 True or True = True
 True or False = True
 False or False = False
+'''
+
+#Other
+'''
+in: Check if something is inside a string or collection
+not in: Check if something is not inside a string or collection
+not: The opposite of bool value
 '''
