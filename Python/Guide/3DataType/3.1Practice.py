@@ -40,3 +40,35 @@ print(type(f))
 f = str(f)
 print(type(f))
 print('\n')
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Guide/3DataType (main) $ python 3.1Practice.py
+
+
+<class 'int'>
+<class 'str'>
+
+
+<class 'float'>
+1
+<class 'int'>
+
+
+<class 'complex'>
+<class 'str'>
+
+
+<class 'str'>
+<class 'int'>
+
+
+<class 'str'>
+<class 'bool'>
+
+
+<class 'bool'>
+<class 'str'>
+
+
+@seantaihx ➜ .../Practice/Python/Guide/3DataType (main) $ 
+'''
