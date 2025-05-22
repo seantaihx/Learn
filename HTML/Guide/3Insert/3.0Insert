@@ -1,0 +1,363 @@
+<!--Insert-->
+Image: Insert Image
+
+1. Images:
+ex: <img src="path" alt="Alternative text">
+
+src="" points to the path to the Image, alt is what will be displayed when the picture is not available
+
+2. Image Size:
+ex: <img src="path" alt="Alt" style="width:500px; height:600px">
+
+3. Animated Image:
+ex: <img src="GIF.gif" alt="Animated" style="width:48px; height:48px;">
+
+4. Floating Image: Let Image float to the left or right of a text.
+ex: <p><img src="smiley.gif" alt="Smiley pic" style="float:right; width:42px; height:42px;">Text</p>
+
+5. Image Map: clickable area in an image (interactive)
+    a) Step1: Image uses an image map
+    b) Step2: Create Image Map
+    c) Step3: Define Area that is interactable
+    d) Step4: Use JavaScript function to execute function when clicked
+ex: 
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+6. Background Image:
+ex: <p style="background-image: url('img.jpg');">
+This example is the Image is just behind the p tag
+
+ex: <body style="background-image: url('img.png'); background-repeat: no-repeat;">
+This is for the whole webpage. The image will keep repeating when the picture is smaller than the page 
+To prevent that, use background-repeat: no-repeat
+
+Or use background-size:cover; background-attachment:fixed; to cover the entire element, and fix it in style
+
+7. Display different pic for different devices
+ex: 
+<picture>
+    <source media="(min-width:46px)" srcset="img-food.jpg">
+    <source media=...   srcset="img2.jpg">
+    <img src="img.jpg>
+</picture>
+
+8. Commomn Image Format:
+APNG    GIF     ICO     JPEG     JPG    PNG    SVG
+---------------------------------------------------------------------------------------------------------------------
+Preformatted text: Preserves the spaces and the line breaks of the text within it
+ex: <pre></pre>
+
+Pre is a container tag, if no <pre></pre>, then the text will likely to be in one line and paragraph
+-----------------------------------------------------------------------------------------------------------------
+Links:
+
+1. Hyperlinks:
+ex: <a href="https://.../">Visit</a>
+
+2. Target Attributes: Specifies where to open the linked documents
+    a) _self: Default. Open in same window/tab.
+    b) _blank: Open in a new window/tab
+    c) _parent: Open in the parent frame
+    d) _top: Open in the full body of the window
+ex: <a href="..." target="_blank">Visit</a>
+
+3. Absolute URLs & Relative URLs:
+    a)Absolute URL: Full web address in href attribute
+    b)Relative URL: Local link (without https://www" part)
+
+4. Images as a link: Put <img> tag inside <a> tag
+ex:
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial"
+style="width:42px; height:42px;">
+</a>
+
+5. Link to Email Address: Open user's email program
+ex: <a href="mailto:someone@example.com">Send Email</a>
+
+6. Button as a link: Need JavaScript code to specify what happens at certain events
+ex: <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+7. Link Titles: specifies extra information about an element
+ex: <a href="URL" title="Go to website">Visit website</a>
+
+8. Link Colors: There are 3 colors for links, unvisited, visited, and active
+Default: Unvisited= Underlined and blue, Visited= Underlined and purple, Active= Underlined and red.
+ex: 
+<style>
+a:link{
+    color:
+    background-color:
+    text-decoration:
+}
+a:visited{...}
+a:hover{...}
+a:active{...}
+</style>
+-----------------------------------------------------------------------------------------------------------------
+Book Marks: Useful when web page is long, directed to the specified location
+
+within the page
+ex:
+<h2 id="C4">Chapter 4</h2>
+<a href="#C4">Jump to Chapter 4</a>
+
+Or to another page
+ex: <a href="html_demo.html#C4">Jump to Chapter 4</a>
+-----------------------------------------------------------------------------------------------------------------
+Tables
+1. Defining
+    a) Define a table: <table></table>
+    b) Table cell and Rows: <tr>row</tr> <td>Cell</td>              --> Cell is inside <tr></tr>
+    c) headers of the column: <th></th>
+ex: 
+<table>
+  <tr>
+    <th>Person 1</th>
+    <th>Person 2</th>
+    <th>Person 3</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Tobias</td>
+    <td>Linus</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+  </tr>
+</table>
+
+2. Group Elements Together: We can group the elements (a row, header, column) to style them easier
+    a)Group Header: The <thead> element is used to specify header of a table.
+      Browsers can use these elements to enable scrolling of the table body independently of the header and footer. 
+      Also, when printing a large table that spans multiple pages, these elements can enable the table header and 
+      footer to be printed at the top and bottom of each page.
+
+      Note: The <thead> element must have one or more <tr> tags inside.
+
+      The <thead> tag must be used in the following context: As a child of a <table> element, after any <caption> 
+      and <colgroup> elements, and before any <tbody>, <tfoot>, and <tr> elements.
+
+      Tip: The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default. However, 
+      you can use CSS to style these elements
+      
+      ex:
+      thead {
+          display: table-header-group;
+          vertical-align: middle;
+          border-color: inherit;
+      }
+
+    b)Group Body: The <tbody> tag is used to group the body content in an HTML table.
+      The <tbody> element is used to specify body of a table
+      Browsers can use these elements to enable scrolling of the table body independently of the header and footer. 
+      Also, when printing a large table that spans multiple pages, these elements can enable the table header and 
+      footer to be printed at the top and bottom of each page.
+
+      Note: The <tbody> element must have one or more <tr> tags inside.
+
+      The <tbody> tag must be used in the following context: As a child of a <table> element, after any <caption>, 
+      <colgroup>, and <thead> elements.
+
+      Tip: The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default. However, 
+      you can use CSS to style these elements 
+
+      ex:
+      tbody {
+          display: table-row-group;
+          vertical-align: middle;
+          border-color: inherit;
+      }
+
+    c)Group Footer: The <tfoot> tag is used to group footer content in an HTML table.
+      The <tfoot> element is used to specify footer of a table
+      Browsers can use these elements to enable scrolling of the table body independently of the header and footer. 
+      Also, when printing a large table that spans multiple pages, these elements can enable the table header and 
+      footer to be printed at the top and bottom of each page.
+
+      Note: The <tfoot> element must have one or more <tr> tags inside.
+
+      The <tfoot> tag must be used in the following context: As a child of a <table> element, after any <caption>, 
+      <colgroup>, <thead>, and <tbody> elements.
+
+      Tip: The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default. However, 
+      you can use CSS to style these Elements
+
+      ex:
+      tfoot {
+          display: table-footer-group;
+          vertical-align: middle;
+          border-color: inherit;
+      }
+    
+3. Table Border:
+ex:
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+the border-collapse is to prevent the table has 2 border
+
+4. Table Styling:
+    a)Round Table:
+    ex:
+    table, th, td {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    ex:
+    th, td {
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+    The first example has a big block covering all of cell while the second hasnt
+
+    b)Table Border Type:
+    ex:
+    th, td {
+      border-style: dotted;
+    }
+
+    c)Border Color:
+    ex:
+    th, td {
+      border-color: #96D4D4;
+    }
+
+    d)Border Size:
+    ex:
+    <table style="width:100%">
+    <tr>
+        <th style="width:70%">Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr style="height:200px">
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    </table>
+
+    d)Multiple cell: use colspan='' at start tag of the cell to have multiple column (horizontal), 
+    rowspan for row (vertical)
+    ex:
+    <td colspan="2">2 cell</td>
+
+    e)Zebra stripe:
+    ex:
+    tr:nth-child(even) {
+      background-color: rgba(150, 212, 212, 0.4);
+    }
+
+    th:nth-child(even),td:nth-child(even) {
+      background-color: rgba(150, 212, 212, 0.4);
+    }
+
+    tr is for horizontal zebra stripe, and th, td is for vertical
+
+5. Table Header:
+    a)Row Header:
+    ex:
+    <table>
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    </table>
+
+    b) Column Header:
+    ex:
+    <table>
+    <tr>
+        <th>Firstname</th>
+        <td>Jill</td>
+        <td>Eve</td>
+    </tr>
+    <tr>
+        <th>Lastname</th>
+        <td>Smith</td>
+        <td>Jackson</td>
+    </tr>
+    <tr>
+        <th>Age</th>
+        <td>94</td>
+        <td>50</td>
+    </tr>
+    </table>
+
+    c)Table Caption:
+    ex:
+    <table style="width:100%">
+    <caption>Monthly savings</caption>
+    <tr>
+        <th>Month</th>
+        <th>Savings</th>
+    </tr>
+    <tr>
+        <td>January</td>
+        <td>$100</td>
+    </tr>
+    <tr>
+        <td>February</td>
+        <td>$50</td>
+    </tr>
+    </table>
+---------------------------------------------------------------------------------------------------------------------
+List:
+1. Ordered List: List with 1, 2, 3, 4...
+ex:
+<ol type="1">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+type attribute specifies what symbol to use (a, b, c. A, B, C. I, II, III...)
+
+2. Unordered List: List without order
+ex:
+<ul style="list-style-type:disc;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+list-style-type is the unordered symbol (circle, bullet, square...)
+
+3. Other:
+ex:
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+dl is the description list tag, dt is term, dd is detail
+---------------------------------------------------------------------------------------------------------------------

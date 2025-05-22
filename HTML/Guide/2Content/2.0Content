@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--Content-->
+Headings: There is total of 6 heading tags, the largest is h1 and smallest is h6.
+ex: <h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>
+
+Headings are container tags
+Headings are always bold
+---------------------------------------------------------------------------------------------------------------------
+Paragraphs: Just text
+ex: <p></p>
+
+Paragraphs are container tags
+Different paragraph always starts in different line, and there's some space between two paragraphs.
+---------------------------------------------------------------------------------------------------------------------
+Horizontal Rules: A horizontal line across the webpage
+ex: <hr>
+
+HR is an empty tag
+--------------------------------------------------------------------------------------------------------------------
+Line Break: To start a new line without starting new paragraph.
+ex: <br>
+
+BR is an empty tag

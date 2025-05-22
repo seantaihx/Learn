@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--Style-->
+Style Attribute: using the style attribute at the start tag
+ex: <tagname style="property:value;">
+
+property and value are CSS things
+-----------------------------------------------------------------------------------------------------------------
+Background Color: 
+ex: <body style="background-color:powderblue;">Body</body>
+
+It is inside a class or a session start tag
+Color value can be text or Hexa value
+-----------------------------------------------------------------------------------------------------------------
+Text Color:
+ex: <p style="color:red;">Paragraphs</p>
+
+It can be used in any start tag that have texts
+Color value can be text or Hexa value
+----------------------------------------------------------------------------------------------------------------
+Border Color
+ex: <h1 style="border:_px type color;">Text</h1>
+
+first value is the border's size, second is type (solid, dotted...), and third is color of the line
+-----------------------------------------------------------------------------------------------------------------
+Color Value:
+1. RGB/RGBA: Intensity of Red, Green, Blue color, A is alpha (transparency)
+ex: rgb(r, g, b, a)
+r, g, b is range (0-255) and a is (0-1)
+
+2. HEX: Hex value of color
+ex: #rrggbb
+r,g,b is range (0-f)
+
+3. HSL: Hue, Saturation, Lightness
+ex: hsl(h, s, l, a)
+h is (0-360), s,l are (0%-100%), a is (0-1)
+-----------------------------------------------------------------------------------------------------------------
+Fonts:
+ex: <h1 style="font-family:verdana;">Heading 1</h1>
+
+It can be used in any start tag that have texts
+-----------------------------------------------------------------------------------------------------------------
+Text Size:
+ex: <h1 style="font-size:300%;">Heading 1</h1>
+
+It can be used in any start tag that have texts
+-----------------------------------------------------------------------------------------------------------------
+Text Alignment:
+ex: <h1 style="text-align:center;">Heading 1</h1>
+
+It can be used in section or any start tag that have texts
+-----------------------------------------------------------------------------------------------------------------
+Formatting Elements
+1. Bold: 
+ex: <b>Bold</b>
+2. Strong:
+ex: <strong>Important</strong>
+3. Italic:
+ex: <i>Italic</i>
+4. Emphasis:
+ex: <em>Emphasis</em>
+5. Small text:
+ex: <small>Small text</small>
+6. Mark/Highlighted:
+ex: <mark>Marked</mark>
+7. Strike a line:
+ex: <del>Line</del>
+8. Insert: Inserted is used after one is deleted (Striked the line)
+ex: <ins>sth</ins> 
+comes with underline
+9. Subscript: Like the 2 in H2O
+ex: H<sub>2</sub>O
+10. Superscript: Like the exponent
+ex: x<sup>4</sup>
+-----------------------------------------------------------------------------------------------------------------
+Quotation and Citation Elements
+1. From other sources (will be indented)
+ex: <blockquote cite="source">quote</blockquote>
+2. Short quotation
+ex: <q>Short quote</q>
+3. Abbreviations
+ex: <abbr title="Full Name">FN</abbr>
+4. Address for contact information (Italic)
+ex: <address>Info1 <br>Info2 </address>
+5. Cite for Work Title (Italic)
+ex: <cite>Title</cite>
+6. Bi-Directional Override
+ex: <bdo dir="direction">message</bdo>
+
+direction can be rtl or ltr (right to left or left to right)
+-----------------------------------------------------------------------------------------------------------------

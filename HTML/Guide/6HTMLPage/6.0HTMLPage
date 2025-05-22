@@ -1,0 +1,14 @@
+Favicon: Small image beside the page title
+1. Save favicon image (commonly as favicon.ico) and add it using <link> after <title> element.
+ex: 
+<head>
+    <title>My Page Title</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+-----------------------------------------------------------------------------------------------------------------
+Page Title: What will be displayed at the small tab above
+ex:
+<head>
+    <title>Title</title>
+</head>
+-----------------------------------------------------------------------------------------------------------------

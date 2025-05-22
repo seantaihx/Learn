@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <h1>This is my first heading</h1>
+    <p>This is the content, and there is a line break here <br>but no new paragraph needed.</p>
+    <hr>
+    <p>There is a line above</p>
+</html>

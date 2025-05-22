@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--CSS-->
+CSS: Cascading Style Sheets
+Cascading: A style applied to a parent element will also apply to all children elements 
+           within the parent unless specified
+-----------------------------------------------------------------------------------------------------------------
+Using CSS:
+1. Inline CSS: Uses style attribute to a single HTML element.
+ex: <h1 style="color:blue;">Blue Heading</h1>
+2. Internal CSS: Define style in <head> section and within the <style> element for a single HTML page
+ex:
+<head>
+<style>
+    body{background-color:powderblue;}
+    h1{color:blue;}
+</style>
+</head>
+3. External CSS: Make a style at another file using class
+ex:
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+-----------------------------------------------------------------------------------------------------------------
+CSS Color, Fonts, Border, and Sizes:
+ex:
+h1{
+    color:blue;
+    font-family:verdana;
+    font-size:300%;
+    border:2px solid powderblue;
+}
+-----------------------------------------------------------------------------------------------------------------
+CSS Padding and Margin: Padding is space between text and border, margin is space outside the border.
+ex:
+p{
+    border: 2px solid powderblue;
+    padding: 30px;
+    margin: 50px;
+}
+-----------------------------------------------------------------------------------------------------------------

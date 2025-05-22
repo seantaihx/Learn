@@ -1,0 +1,47 @@
+<!--HTML-->
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+HTML (Hyper Text Markup Language): A standard markup language for creating web pages, describes the structure of a web page
+----------------------------------------------------------------------------------------------------------------
+HTML Element: Everything inside start tag and end tag
+----------------------------------------------------------------------------------------------------------------
+Editors:
+1. Simple Text Editors: Notepad, TextEdit
+2. Professional HTML editors: I dont know
+
+Step1: Write code
+Step2: Save HTML page (fname.htm)
+Step3: Open with ___ for the file to view
+----------------------------------------------------------------------------------------------------------------
+<!--Basic-->
+Document Type Declaration: It's best to state the document type
+ex: <!DOCTYPE html-->
+----------------------------------------------------------------------------------------------------------------
+Necessity: These 3 tags are necessary for a html code
+1. HTML Tags: Every code is under this
+ex: <html></html>
+2. Head Tags: This is a setup for website (name, languages...)
+ex: <head></head>
+3. Body Tags: Every visible part is code under this
+ex: <body></body>
+----------------------------------------------------------------------------------------------------------------
+Comments: Information to coder ignored by computer
+ex: <!--Comments-->
+----------------------------------------------------------------------------------------------------------------
+HTML Attributes: Provide additional information about elements
+Always specified in the start tag, usually come in name/value pairs
+ex: <img src="Path">                    -->   src attribute specifies the path to the pic or URL
+ex: <a href="URL">                      -->   href attribute specifies the URL of the page the link goes to
+----------------------------------------------------------------------------------------------------------------
+Path: The path has 2 ways to specifies
+1. Absolute URL: Link to different website
+ex: src="https://.../.../.../image.jpg"
+2. Relative URL: Link within the website
+ex: src="/images/img.jpg"
+----------------------------------------------------------------------------------------------------------------
+Tags:
+There is 2 types of tags, container tag and empty tag.
+1. container tag: has 2 tags and content inside them, the second tag is same as the first but add one more '/'
+ex: <p>mmm</p> <h1>Heading</h1>
+2. empty tag: only one tag
+ex: <img>
+----------------------------------------------------------------------------------------------------------------
