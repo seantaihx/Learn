@@ -16,3 +16,4 @@ if ans != 7*8:
 else:
     points += 5
 
+print('Your final score is {}'.format(points))
