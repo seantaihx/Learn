@@ -14,7 +14,8 @@ Tips:
 
 #Only see this when necessary, TRY FIRST
 '''Pseudocode
-1. use a for loop to get input
-2. append them
-3. print
+1. create an empty list
+2. use a for loop to get input
+3. append them
+4. print
 '''
