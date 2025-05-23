@@ -12,11 +12,9 @@ print(variable) #print the value
 @seantaihx ➜ /workspaces/Practice (main) $ cd Python/Guide/2Foundation
 @seantaihx ➜ .../Practice/Python/Guide/2Foundation (main) $ python 2.1Practice.py
 
-
 Enter a variable: abs
 The variable you enter is  abs
 abs
-
 
 @seantaihx ➜ .../Practice/Python/Guide/2Foundation (main) $ 
 '''

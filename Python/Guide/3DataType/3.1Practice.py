@@ -41,6 +41,13 @@ f = str(f)
 print(type(f))
 print('\n')
 
+
+Result1 = isinstance(a, int)
+print(Result1)
+Result2 = isinstance(a, str)
+print(Result2)
+
+
 '''SAMPLE OUTPUT
 @seantaihx ➜ .../Practice/Python/Guide/3DataType (main) $ python 3.1Practice.py
 

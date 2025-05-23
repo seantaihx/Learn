@@ -33,4 +33,6 @@ match variable:
         statement
     case option3|option4|option4:
         statement
+    case _:
+        statement
 '''

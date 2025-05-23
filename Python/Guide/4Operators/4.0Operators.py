@@ -13,14 +13,14 @@ power: **
 !!!Beside + and *, every other arithmetic operators can only be used on numbers
 
 a = a + __ can be written as a += __
-Can also apply with other arithmetice operator.
+Can also apply to other arithmetic operator.
 '''
 
 
 
 #Comparison Operator
 '''
-Comparison Operator: Return a bool value after comparing two or more values
+Comparison Operator: Return a bool value (True/False) after comparing two or more values
 
 greater/ greater or equal to: > >=
 less/ less or equal to: < <=

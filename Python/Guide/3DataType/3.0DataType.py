@@ -40,6 +40,12 @@ type(): Check the type of a value
 
 format: type(value)             --> This is not printed, so we usually accompany this with print()
 ex: print(type(1))
+
+or
+isinstance(): Check if a value has certain type
+
+format: isinstance(value/variable, type)        --> Returns True if match and False if not match
+ex: isinstance(3, int)
 '''
 
 
