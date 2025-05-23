@@ -11,6 +11,10 @@ Tips:
 '''
 
 
+
+
+
+#Only see this when necessary, TRY FIRST
 '''Pseudocode
 1. prompt the user to enter a sentence and a keyword
 2. find the keyword from the starting position and ending

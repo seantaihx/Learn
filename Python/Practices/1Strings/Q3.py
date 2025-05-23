@@ -10,6 +10,11 @@ Tips:
 1. use .count()
 '''
 
+
+
+
+
+#Only see this when necessary, TRY FIRST
 '''Pseudocode
 1. Get a sentence and letter
 2. count how many letter it appears

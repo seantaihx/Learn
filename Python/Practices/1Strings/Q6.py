@@ -12,6 +12,9 @@ Tips:
 
 
 
+
+
+#Only see this when necessary, TRY FIRST
 '''Pseudocode
 1. Get the input
 2. split the strings

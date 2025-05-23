@@ -12,6 +12,9 @@ Tips:
 '''
 
 
+
+
+#Only see this when necessary, TRY THIS
 '''Pseudocode 1
 1. Get input and create a for loop iterate over the word
 2. check if the i forward is equal to the respective character backward
