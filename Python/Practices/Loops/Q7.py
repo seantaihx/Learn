@@ -12,7 +12,12 @@ Print the final score.
 
 '''
 
-
+#Only see this when necessary, TRY FIRST
 '''Pseudocode
-1. 
+1. define a variable indicating the points and initialise it as 0
+2. prompt
+3. if their answer match the correct answer
+4. +
+5. else -
+6. print
 '''

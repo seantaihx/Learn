@@ -11,6 +11,9 @@ modulus (remainder): %
 power: **
 
 !!!Beside + and *, every other arithmetic operators can only be used on numbers
+
+a = a + __ can be written as a += __
+Can also apply with other arithmetice operator.
 '''
 
 
