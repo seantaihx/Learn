@@ -39,8 +39,8 @@ Logical Operator: Return bool type
 
 and, or, &, |
 
-& is same as and
-| is same as or
+& is more 'advance' version of and
+| is more 'advance' version of or
 
 True and True = True
 True and False = False
@@ -50,6 +50,53 @@ True or True = True
 True or False = True
 False or False = False
 '''
+
+#Bitwise Operator (Advance)
+'''
+Bitwise Operator: Works directly on the binary version of numbers
+
+In computer, numbers are in 2bits. i.e. 11001010
+
+&, |, ^, ~, <<, >>
+
+AND (differ from logical operator): &
+Keep the 1s if both numbers has it at specific position
+ex: 
+6 & 3 (0110 & 0011)
+=> 2 (0010)
+
+OR (differ from logical operator): |
+Take all 1s from both numbers
+ex:
+6 | 3 (0110 | 0011)
+=> 7 (0111)
+
+XOR: ^
+Switch the position to 1 if only one number at the respective position is 1
+ex:
+6 ^ 3 (0110 ^ 0011)
+=> 5 (0101)
+
+NOT: ~
+Inverts all bits
+ex:
+~8 (1000)
+=> 7 (0111)
+
+LEFT SHIFT: <<
+Shifts bits to the left (Numbers x 2)
+ex:
+2 << 1 (0010)
+=> 4 (0100)
+
+RIGHT SHIFT: >>
+Shifts bits to the right (Numbers / 2)
+ex:
+2 >> 1 (0010)
+=> 1 (0001)
+
+'''
+
 
 #Other
 '''
