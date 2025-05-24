@@ -107,4 +107,13 @@ def function2():
 '''
 
 
+#
+'''
+We can use if __name__ == "__main__":
+this is to see if the current file is the where the main function and custom functions are
+
+or just main() at the end
+'''
+
+
 
