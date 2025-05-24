@@ -55,3 +55,56 @@ def function_name(parameter):
 
 
 #Special Function Lambda
+'''
+This is an anonymous function (function without name) and is quick to create and use
+
+format: lambda parameter: expression
+'''
+
+
+#Map() Function
+'''
+Applies a specified function to every element in an iterable
+
+format: map(function, iterable)
+'''
+
+#Filter() Function
+'''
+Apply a condition specified in the provided function to each item in iterable and return only those which function evaluates to True
+
+format: filter(function, iterable)
+'''
+
+#Outer and Inner Function
+'''
+Inner function is a function inside a function while outer function is a function with a function inside of it
+
+format:
+def func_out(outer_arg):
+    statement
+    def func_in(in_arg):
+        statement
+        return sth
+    return func_in(in_arg)
+'''
+
+#@Decorator
+'''
+@Decorator: Use function below as argument of function of decorator
+
+format:
+@func
+
+def function(func):
+    statement
+    (use func function inside)
+    return
+
+@function
+def function2():
+    return...
+'''
+
+
+
