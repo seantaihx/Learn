@@ -13,6 +13,8 @@ format:
 !!!iterable is a variable or value that can be iterated (string, list, dictionary...)
 !!!range() take int number as argument
 !!!If you want to iterate backward, in range(length, -step, -1) notice the step is negative
+for i in range(2):
+        print(i)                        --> 0, 1
 
 Nested for loop: A for loop inside a for loop
 format:
