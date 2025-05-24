@@ -95,6 +95,7 @@ ex:
 2 >> 1 (0010)
 => 1 (0001)
 
+!!!CANNOT use on strings
 '''
 
 
