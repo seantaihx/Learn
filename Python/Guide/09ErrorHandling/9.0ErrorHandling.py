@@ -36,6 +36,8 @@ try:
 except ErrorType:
     statement
 
+!!!never leaves the except by itself, always except something:
+
 2. Finally statement: finally statement let you run the code regardless of the result of try except blocks
 format:
 finally:
