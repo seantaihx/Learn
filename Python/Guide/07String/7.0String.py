@@ -1,6 +1,9 @@
 #Strings
 '''
 String: An iterable, and everything inside quotation marks is a string
+
+It is immutable
+ex: word[0] = 'H'       => Error
 '''
 
 
@@ -24,6 +27,7 @@ format: iterable[start_index: end_index: step(optional)]
 !!!If we start the slicing at the first index, we can ignore it like [:3] 
 or end at the last character too [1:], if slice whole string [:] 
 or just want the even index of it [::2], or odd index [1::2]
+or just print the string backward [::-1]
 '''
 
 #Length of a string
