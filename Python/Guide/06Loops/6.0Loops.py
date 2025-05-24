@@ -13,10 +13,11 @@ format:
 !!!iterable is a variable or value that can be iterated (string, list, dictionary...)
 !!!range() take int number as argument
 !!!If you want to iterate backward, in range(length, -step, -1) notice the step is negative
+
 for i in range(2):                => This is same as for i in range(0,2,1)
         print(i)                        --> 0, 1
 
-
+!!!Use for i in range(n) when we want default value start from 0, for i in range(n1, n2) when not start with 0
 
 Nested for loop: A for loop inside a for loop
 format:
