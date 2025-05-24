@@ -12,6 +12,13 @@ print() command: Display message
 format: print(value)
 '''
 
+#length of character or value
+'''
+len() command: find how many value an iterable has
+
+format: len(variable)
+'''
+
 #Variable
 '''
 variable: Use to store value/s

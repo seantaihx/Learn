@@ -24,5 +24,5 @@ Same as string
 
 #Tuple method
 '''
-Allow us to modify or get info from a list
+Allow us to modify or get info from a tuple
 '''
