@@ -56,4 +56,6 @@ int(): change to integer
 float(): change to float
 str(): change to string
 bool(): change to boolean
+
+!!! If change the type of non-numeric data into a data type, it will result in error
 '''
