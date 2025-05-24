@@ -56,3 +56,6 @@ Loop Statement: Statement that can ONLY be used in loops
 2. continue statement: Stops the current iteration and skips to next iteration of the loop
 3. pass statement: Do nothing, act as a placeholder
 '''
+
+
+#!!!!!!!!!We use for loop when we know exactly how many iteration there'll be. While loop when don't know
