@@ -13,8 +13,10 @@ format:
 !!!iterable is a variable or value that can be iterated (string, list, dictionary...)
 !!!range() take int number as argument
 !!!If you want to iterate backward, in range(length, -step, -1) notice the step is negative
-for i in range(2):
+for i in range(2):                => This is same as for i in range(0,2,1)
         print(i)                        --> 0, 1
+
+
 
 Nested for loop: A for loop inside a for loop
 format:
@@ -36,6 +38,14 @@ while condition:
 
 !!!We need to set a counter for while loop to prevent an infinite loop (a loop that never ends) or a 
    condition to break the loop.
+
+Or we can check if some condition is met (controlled by user), stop the loop
+
+format:
+while True:
+        a = input("message")
+        if a == 'something to stop':
+                break
 '''
 
 #Loop Statement
