@@ -31,7 +31,7 @@ print('\n')
 
 
 print(type(e))
-e = bool(e)
+e = bool(e)                  #int(e) will result in error since e is not a number, it cannot be int type
 print(type(e))
 print('\n')
 
