@@ -11,9 +11,9 @@ If-else: Just like how we use in real life
 format:
 if condition:
     statement
-elif condition:
+elif condition:         #Only run when previous condition is false
     statement
-else:
+else:                    #Only run when all previous condition is false
     statement
 
 !!!Multiple if will make the computer to check multiple time, while if elif else will only 
@@ -33,6 +33,6 @@ match variable:
         statement
     case option3|option4|option4:
         statement
-    case _:
+    case _:                                #For case that doesnt match any of the previous case
         statement
 '''
