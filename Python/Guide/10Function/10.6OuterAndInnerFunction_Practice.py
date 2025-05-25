@@ -16,3 +16,4 @@ This is an inner function, defined inside outer() and has access to the name var
 
 return inner()
 The outer function calls and returns the result of the inner function.
+'''
