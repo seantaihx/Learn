@@ -42,6 +42,25 @@ def function_name(parameter1, /):
     statement
 '''
 
+#*args and **kwargs
+'''
+while defining a function, if we dont know how many argument there will be, we can use *args as argument
+to differentiate if the argument is inside the *args or not, we can use **kwargs as argument when defining
+
+*args: tell the function to treat all the positional arguments as a tuple
+**kwargs: keyword-only (variable = value)
+
+positional-only argument: only value
+keyword-only argument: variable = value
+
+Or we can be like
+1. def func(a, *, b, c):     => everything after * is keyword-only
+2. def func(a, b, /):        => everything before / is positional-only
+3. def func(a, b, /, c, *, d, e):     => the first two argument is positional only, extra positional value belongs to c, d and e is keyword only
+
+!!!/ must come BEFORE any * while * come AFTER any /
+'''
+
 
 #Recursion
 '''
