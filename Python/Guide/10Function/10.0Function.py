@@ -91,6 +91,7 @@ def func_out(outer_arg):
     return func_in(in_arg)
 '''
 
+
 #@Decorator
 '''
 @Decorator: Use function below as argument of function of decorator
