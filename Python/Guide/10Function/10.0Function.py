@@ -5,6 +5,8 @@ Some pre-written code that may be used for multiple times, so we dont need to ke
 Pure Function: Always give the same results if input are the same
 
 Impure Function: Depends on any external state that would modify/affect the output
+
+return statement: Return a value or statement and ends the function immediately
 '''
 
 #Custom Function
@@ -21,7 +23,7 @@ if want to return a value
 def function_name(parameter1(optional), parameter(optional2), ...):
     code
     return statement
-
+!!! return a, b will return a tuple
 
 if want to have default value for parameter
 def function_name(parameter1 = default_value1, ..):
