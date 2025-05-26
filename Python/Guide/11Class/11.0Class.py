@@ -145,6 +145,33 @@ Use class method when creating class instances with custom logic, modifying clas
 '''
 
 
+#Inheritence
+'''
+Parent class is class being inherited from, also called base class
+Child class is class that inherits from another class, also called derived class
+
+A) To Create A Parent And Child Class
+parent: same as creating a class
+ex: class parent:
+
+child: use parent class as parameter
+ex: class child(parent)
+
+
+B) Super() Function
+Make child class inherit all the methods and properties from its parent
+
+format:
+class child(parent):
+	def __init__(self, arg1, arg2,...):
+ 		super().__init__(arg1, arg2)
+
+C) Add Properties
+class child(parent):
+	def __init__(self, parg1, parg2, carg1):
+ 		super().__init__(parg1, parg2)
+   		self.carg1 = carg1
+'''
 
 
 
