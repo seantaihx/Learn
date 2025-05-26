@@ -66,6 +66,37 @@ class class_name:
 '''
 
 
+# __repr__() Function
+'''
+__repr__(): A special class method that defines how the object is represented as a developer-readable string
+
+When you print an object, Python will try to use __str__()
+But if __str__() is not defined, it will use __repr__()
+
+repr(object) will always call __repr__()
+
+Think of __repr__() as:
+    - For developers
+    - For debugging
+    - Shows clear or detailed info about the object
+    - Often tries to look like valid Python code to recreate the object
+
+format:
+class class_name:
+    def __init__(self, arg1, arg2):
+        self.arg1 = arg1
+        self.arg2 = arg2
+
+    def __repr__(self):
+        return f"ClassName(arg1={self.arg1}, arg2={self.arg2})"
+
+object = class_name(value1, value2)
+
+print(repr(object))       => use __repr__()
+print(object)             => use __str__() if exists, else use __repr__()
+'''
+
+
 #Object Methods
 '''
 Object Method: Method in objects are functions belong to the object
@@ -78,8 +109,8 @@ class person:
 
   def func(self):
     print("Hi " + self.name)
-  p1 = person("John", 36)
-  p1.func()
+p1 = person("John", 36)
+p1.func()
 
 In this case, func() is object method
 '''
@@ -103,6 +134,32 @@ ex: del p1.age
 
 2. delete object: del variable
 ex: del p1
+'''
+
+# Method Override
+'''
+Method override: When a child class defines a method with the same name as a method in its parent class
+
+Purpose: To change or customize the behavior of the inherited method
+
+Think like:
+Parent class gives a general method
+Child class wants to do it differently, so it overrides (replaces) the method
+
+!!! Only works if the method names match exactly
+!!! super() can still be used to access the parent method if needed
+
+format:
+class Parent:
+    def greet(self):
+        return "Hello from Parent"
+
+class Child(Parent):
+    def greet(self):              # This overrides Parent's greet()
+        return "Hello from Child"
+
+object = Child()
+print(object.greet())     => Hello from Child
 '''
 
 
@@ -129,7 +186,7 @@ Use static method when the method logic is related to the class but doesnt need 
 
 #Class Method
 '''
-class method: method that is bounded to the class and not the instance, it can access and modify class state using the cls parametr
+class method: method that is bound to the class and not the instance, it can access and modify class state using the cls parametr
 
 format:
 class class_name:
@@ -145,7 +202,7 @@ Use class method when creating class instances with custom logic, modifying clas
 '''
 
 
-#Inheritence
+#Inheritance
 '''
 Parent class is class being inherited from, also called base class
 Child class is class that inherits from another class, also called derived class
