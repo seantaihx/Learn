@@ -84,3 +84,68 @@ class person:
 In this case, func() is object method
 '''
 
+
+#Self Parameter
+'''
+self parameter: reference to the current instances and is used to access variables that belongs to the class.
+
+
+!!!Doesnt have to be named self, but have to be the first parameter of function, and also it's recommended to use self
+'''
+
+
+#Del Statement
+'''
+del statement: used to delete property or delete object
+
+1. delete property: del variable.parameter
+ex: del p1.age
+
+2. delete object: del variable
+ex: del p1
+'''
+
+
+#Static Method
+'''
+static method: very similar to class, but doesnt take the implicit first argument
+It is like a regular function but lives in the class's namespace
+
+format:
+class class_name:
+	statement
+  @staticmethod
+  def func(arg1, arg2,...):
+  		statement
+    return statement
+    
+
+Use static method when the method logic is related to the class but doesnt need to use class or instance data    
+
+
+!!!Cant access instance variables and class variables since it doesnt use class or instance data
+'''
+
+
+#Class Method
+'''
+class method: method that is bounded to the class and not the instance, it can access and modify class state using the cls parametr
+
+format:
+class class_name:
+  	class_variable = value1
+    
+  @classmethod
+  def class_method(cls):
+    cls.class_variable 
+    
+    
+Use class method when creating class instances with custom logic, modifying class-level data, or some behaviour that depends on the class especially when subclassing    
+
+'''
+
+
+
+
+
+
