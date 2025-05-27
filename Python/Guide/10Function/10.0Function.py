@@ -7,7 +7,25 @@ Pure Function: Always give the same results if input are the same
 Impure Function: Depends on any external state that would modify/affect the output
 
 return statement: Return a value or statement and ends the function immediately
+
+scope: a variable is only available from inside the region it's created.
+If a variable is created inside a function, it cannot be used outside the function
+If it was created outside of every function, it can be used everywhere
 '''
+
+#Scope
+'''
+Global keyword: make the variable become globally available
+format:
+global x
+x = 300
+
+non-local keyword: make the variable in inner function become accessible in the outer function
+format:
+non-local x
+x = 300
+'''
+
 
 #Custom Function
 '''
