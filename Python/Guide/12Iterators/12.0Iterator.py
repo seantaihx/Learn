@@ -18,3 +18,11 @@ class class_name:
     statement
 
 '''
+
+
+#Stop Iteration
+'''
+StopIteration: just stop the iteration usually in def __next__(self):
+
+format: raise StopIteration
+'''
