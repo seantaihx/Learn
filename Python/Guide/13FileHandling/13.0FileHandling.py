@@ -38,8 +38,14 @@ with open ('filename.txt') as f:
   print(f.read())  #print whole text
 
 2. Read one single line
-format: f.readline
+format: 
+f.readline
+or
+variable = f.readlines()
+!!!.readlines() returns a list of lines
+
 Or
+
 use for loop to read a file line by line
 format:
 with open('filename.txt') as f:
