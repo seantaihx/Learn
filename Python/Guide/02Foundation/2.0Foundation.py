@@ -34,6 +34,11 @@ single line comment: #
 Multiple line comment: three single quotes or double quotes
 '''
 
+#Get Memory Address of An Object
+'''
+format: id(object)
+'''
+
 #library
 '''
 Library: A collection of related modules, containing many codes that can be used repeatedly in different 
@@ -48,4 +53,9 @@ format: from library_name import specific_module_you_need
 Input: Get something from the keyboard (a string)
 
 format: variable = input("Message display")         --> Everything get from input is a string
+'''
+
+#Delete Variable
+'''
+format: del variable_name
 '''
