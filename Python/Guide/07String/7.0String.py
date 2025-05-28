@@ -53,6 +53,11 @@ Escape Sequence: Something to use for formatting or printing values that have di
 \xhh: Hex value
 '''
 
+#Raw String
+'''
+Raw String: Tell computer to not interpret the backslash in the string as escape sequence but a string
+format: variable = r"string\string"
+'''
 
 #F-string
 '''
