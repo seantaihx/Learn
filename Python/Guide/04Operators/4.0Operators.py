@@ -16,6 +16,11 @@ a = a + __ can be written as a += __
 Can also apply to other arithmetic operator.
 '''
 
+#Some Math Thing
+'''
+absolute value: abs(value)
+round number to specific num: round(num, how_many_decimal(optional))
+'''
 
 
 #Comparison Operator
