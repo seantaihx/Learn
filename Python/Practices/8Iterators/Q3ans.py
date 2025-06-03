@@ -9,3 +9,11 @@ for num in even_up_to_10():
     
 Complete the function to only yield even numbers from 0 to 10.
 '''
+
+def even_up_to_10():
+    for i in range(11):
+        if i % 2 == 0:
+            yield i
+
+for num in even_up_to_10():
+    print(num)
