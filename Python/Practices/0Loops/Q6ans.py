@@ -7,12 +7,15 @@ Print a menu:
 Ask user to enter a choice. Use match to perform the action.
 '''
 
+#We print out the menu for the user to see the options first
 print("Menu:")
 print("1. Say Hello\n2. Say Goodbye\n3. Exit\n")
 
+#Get an infinite loop to keep prompting the user's choice
 while True:
     choice = input('Enter the options (1/2/3): ')
 
+    #Match their choice to see which option they want
     match choice:
         case '1':
             print("Hello")

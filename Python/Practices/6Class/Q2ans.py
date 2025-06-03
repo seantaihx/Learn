@@ -13,3 +13,10 @@ class Book:
 
 book = Book('1984', 'George Orwell')
 book.describe()
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ python Q2ans.py
+Title: [1984], Author: [George Orwell]
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ 
+'''

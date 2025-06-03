@@ -20,3 +20,16 @@ class Book:
 
     def update_title(self, new_title):
         self.title = new_title
+
+book1 = Book('1984', 'George')
+book2 = Book('Sean', "Sean")
+book3 = Book('2112', 'Future')
+
+print(Book.count)
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ python Q5ans.py
+3
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ 
+'''

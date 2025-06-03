@@ -4,11 +4,14 @@ Ask the user to enter a word. Print it in:
 	•	all lowercase
 	•	all uppercase
 '''
+
 print('\n')
+#Get user input
 string = input("Enter some words: ")
+#Make all the character lowercase
 string = string.lower()
 print(string)
-
+#Make all the character uppercase
 string = string.upper()
 print(string)
 print('\n')

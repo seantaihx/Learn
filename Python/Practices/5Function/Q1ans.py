@@ -28,3 +28,14 @@ def main():
 
 if __name__ == '__main__':
   main()
+
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ python Q1ans.py
+5.0
+4.0
+Error: cannot divide by zero
+a is not a number
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ 
+'''

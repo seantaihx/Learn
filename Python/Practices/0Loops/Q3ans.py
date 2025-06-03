@@ -9,8 +9,10 @@ Use conditions to print the grade:
 	•	Below 60: F
 '''
 
+#Get user user input and change the type into integer type
 grade = int(input("Enter grade: "))
 
+#For each grade match the respective lettergrade
 if grade >= 90:
     lettergrade = 'A'
 elif grade >= 80:
@@ -23,3 +25,11 @@ else:
     lettergrade = 'F'
 
 print(f'The lettergrade of {grade} is {lettergrade}.')
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/0Loops (main) $ python Q3ans.py
+Enter grade: 76
+The lettergrade of 76 is C.
+@seantaihx ➜ .../Practice/Python/Practices/0Loops (main) $ 
+'''

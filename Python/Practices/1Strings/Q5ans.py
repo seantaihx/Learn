@@ -4,7 +4,9 @@ Ask the user to enter a sentence and replace all “bad” words (like “dumb�
 '''
 
 print('\n')
+#Get the input
 sentence = input("Enter a sentence with \"dumb\" inside: ")
+#Replace the word 'dumb' to 'smart'
 sentence = sentence.replace("dumb", "smart")
 
 print(sentence)

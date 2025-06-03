@@ -11,3 +11,9 @@ class Book:
 
 book = Book('1984', 'George Orwell')
 print(book.title)
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ python Q1ans.py
+1984
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ 
+'''

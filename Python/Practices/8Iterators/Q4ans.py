@@ -29,3 +29,13 @@ for i in obj:
     print(i)
 for j in obj:
     print(j)
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ python Q4ans.py
+10
+20
+10
+20
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ 
+'''

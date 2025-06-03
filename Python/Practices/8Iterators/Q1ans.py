@@ -11,3 +11,10 @@ nums = [100, 200, 300]
 it = iter(nums)
 print(next(it))
 print(next(it))
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ python Q1ans.py
+100
+200
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ 
+'''

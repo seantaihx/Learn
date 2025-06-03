@@ -11,6 +11,7 @@ for index, fruit in enumerate(fruits, start=1):
     print(f"{index}: {fruit}")
 
 
+
 '''SAMPLE OUTPUT
 1: apple
 2: banana

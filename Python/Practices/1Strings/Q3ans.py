@@ -5,9 +5,11 @@ Count how many times that letter appears in the sentence.
 '''
 
 print('\n')
+#Get user input
 sentence = input("Enter a sentence: ")
 word = input("Enter a word you want to count: ")
 
+#Count how many times a word appear in a sentence
 times = sentence.count(word)
 
 print("{} has appeared {} times".format(word, times))

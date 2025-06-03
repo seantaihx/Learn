@@ -41,3 +41,12 @@ it = OneToN(3)
 print(next(it))
 print(next(it))
 print(next(it))
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ python Q2ans.py
+1
+2
+3
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ 
+'''

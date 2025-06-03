@@ -13,3 +13,10 @@ def read_file(filename):
 
 print(read_file("existing_file.txt"))  # Prints file content
 print(read_file("missing_file.txt"))   # File not found
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ python Q4ans.py
+File not found
+File not found
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ 
+'''

@@ -17,3 +17,9 @@ class Book:
 
 book = Book('1984', 'George Orwell')
 print(book)  # This will use __str__()
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ python Q3ans.py
+Title: 1984, Author: George Orwell
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ 
+'''

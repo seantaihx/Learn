@@ -16,3 +16,17 @@ class Book:
 
     def update_title(self, new_title):
         self.title = new_title
+
+book = Book(1984, 'George')
+book.describe()
+book.update_title('Sean')
+book.describe()
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ python Q4ans.py
+Title: 1984, Author: George
+Title: Sean, Author: George
+@seantaihx ➜ .../Practice/Python/Practices/6Class (main) $ 
+'''
+

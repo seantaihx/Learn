@@ -14,3 +14,12 @@ items.clear()
 
 print(len(items) == 0)  
 print(items)            
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/4Sets (main) $ python Q5ans.py
+True
+True
+set()
+@seantaihx ➜ .../Practice/Python/Practices/4Sets (main) $ 
+'''

@@ -12,3 +12,18 @@ class Manager(Employee):
     def info(self):
         super().info()  # Call the parent method first
         print("Manager info")
+
+employee = Employee()
+manager = Manager()
+
+employee.info()
+manager.info()
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ python Q5ans.py
+Base employee info
+Base employee info
+Manager info
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ 
+'''

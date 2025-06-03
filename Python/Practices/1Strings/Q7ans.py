@@ -4,15 +4,23 @@ Ask the user to enter a word.
 Check if it reads the same forward and backward (e.g. “madam”).
 '''
 
+#Get the user input and remove the accidentally entered space and also lower 
+# everything to prevent Upper lower case problem
 word = input("Enter a word: ").strip().lower()
 palindrome = True
 
+#Go through the word
 for i in range(len(word)):
+    #len(word)-1 is the last one, last-i is the correspond letter to i
     if word[i] == word[len(word)-1-i]:
+        #If the length of word is odd number
         if len(word)%2==1:
+            #If the position of i is the same as the one count from behind
             if i == len(word)-1-i:
                 break
+        #If the length of the word is even
         elif len(word)%2==0:
+            #If they reach the actual middle
             if i == (len(word)-1)//2: #maddam 0 1 2 3 4 5
                 break
         continue

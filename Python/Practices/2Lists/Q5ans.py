@@ -5,13 +5,18 @@ Then ask for one new number to insert.
 Use .insert() to put it in the correct position to keep the list sorted.
 '''
 
+#Get user input
 list = input("Enter a sorted number order: ")
+#Split it into a list
 list = list.split(' ')
 new = input("Enter a new number: ")
 
+#Go through the list
 for i in range(len(list)):
+    #If the new number is greater, keep going
     if int(list[i]) < int(new):
         continue
+    #If the new number is lesser at current, insert it at the current position
     else:
         list.insert(i, new)
         break

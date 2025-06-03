@@ -4,8 +4,10 @@ Ask the user to input an arithmetic equation
 Print the result
 '''
 
+#Get user input
 inp = input("Enter an arithmetic equation with space in between (n1 +-*/^ n2): ")
 
+#split the input into a list with space as separator
 eqn = inp.split(' ')
 n1 = int(eqn[0])
 n2 = int(eqn[2])

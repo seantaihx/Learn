@@ -5,6 +5,7 @@ Create a tuple containing three elements: an integer, a string, and a list.
  '''
 
 mytuple = (2, 'd', ['1', '2', '3', '4'])
+#Add 5 to the end of the third element of the tuple (to the list)
 mytuple[2].append('5')
 print(mytuple)
 

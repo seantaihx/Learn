@@ -38,6 +38,20 @@ class FibUpTo:
         self.a, self.b = self.b, self.a + self.b  # Fibonacci logic
         return val
 
-# Output: 0 1 1 2 3 5 8 13 21
 for num in FibUpTo(21):
     print(num)
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ python Q5ans.py
+0
+1
+1
+2
+3
+5
+8
+13
+21
+@seantaihx ➜ .../Practice/Python/Practices/8Iterators (main) $ 
+'''

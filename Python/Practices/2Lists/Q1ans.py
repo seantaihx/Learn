@@ -5,10 +5,13 @@ Use .append() to store them into a list.
 Print the final list.
 '''
 
+#Create an empty list
 list = []
 
+#Enter 5 numbers
 for i in range(5):
     num = int(input("Enter number: "))
+    #Add them to the end of the list
     list.append(num)
 print(list)
 

@@ -14,3 +14,12 @@ def safe_add(a, b):
 print(safe_add(5, 3))        # 8.0
 print(safe_add("4", "2.5"))  # 6.5
 print(safe_add("hello", 2))  # Invalid input
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ python Q5ans.py
+8
+Invalid input
+Invalid input
+@seantaihx ➜ .../Practice/Python/Practices/5Function (main) $ 
+'''

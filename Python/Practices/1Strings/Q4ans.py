@@ -5,17 +5,20 @@ Print the position of the keyword in the sentence.
 '''
 
 print('\n')
+#Get user input
 sentence = input("Enter a sentence: ")
 keyword = input("Enter a word you want to find: ")
 
+#Find the position of a keyword
 position = sentence.find(keyword)
 print("Position: {}".format(position))
+#Return -1 if not found, so this is when it's found keep looping
 while position != -1:
+    #Find the position start from the previous found position+1 to the end of the sentence
     position = sentence.find(keyword, position+1, len(sentence))
     if position != -1:
         print("Position: {}".format(position))
 print('\n')
-
 
 
 

@@ -25,5 +25,21 @@ class PrintableMixin:
         return f"Rectangle(width={self.width}, height={self.height})"
 
 class PrintableRectangle(RectangleMixin, PrintableMixin, Shape):
+    def __init__(self, width, height):
+        super().__init__(width, height)  # Inherits from RectangleMixin
+
     def area(self):
         return self.width * self.height
+
+# Test
+rect = PrintableRectangle(4, 5)
+print(rect)        
+print(rect.area())   
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ python Q6ans.py
+Rectangle(width=4, height=5)
+20
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ 
+'''

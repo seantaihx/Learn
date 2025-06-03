@@ -60,3 +60,11 @@ Loop Statement: Statement that can ONLY be used in loops
 
 
 #!!!!!!!!!We use for loop when we know exactly how many iteration there'll be. While loop when don't know
+
+
+#Enumerate()
+'''
+enumerate(): adds a counter to an iterable (list, tuple, string) and returns it as an enumerate object
+             Can be used in a for loop to get both the index and value
+format: enumerate(iterable, start=0)
+'''

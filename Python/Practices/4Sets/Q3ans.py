@@ -18,3 +18,17 @@ nums.remove(40)
 print(nums)
 nums.remove(40)
 print(nums)
+
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/4Sets (main) $ python Q3ans.py
+{40, 10, 50, 20, 30}
+{40, 10, 20, 30}
+{40, 10, 20, 30}
+{10, 20, 30}
+Traceback (most recent call last):
+  File "/workspaces/Practice/Python/Practices/4Sets/Q3ans.py", line 19, in <module>
+    nums.remove(40)
+KeyError: 40
+@seantaihx ➜ .../Practice/Python/Practices/4Sets (main) $ 
+'''

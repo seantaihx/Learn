@@ -5,10 +5,13 @@ Convert it to a list of words using .split().
 Ask for a word and count how many times it appears.
 '''
 
+#Get user input
 inp = input("Enter a sentence: ")
+#Split it into a list
 list = inp.split()
-
+#Enter a word user want to find
 word = input("Enter a word you want to find: ")
+#Count the word appears how many time
 num = list.count(word)
 
 print("{} appears {} times".format(word, num))

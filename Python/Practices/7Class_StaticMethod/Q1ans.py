@@ -12,3 +12,9 @@ class MathHelper:
 
 math = MathHelper(4)
 print(math.square(3))
+
+'''SAMPLE OUTPUT
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ python Q1ans.py
+9
+@seantaihx ➜ .../Practice/Python/Practices/7Class_StaticMethod (main) $ 
+'''

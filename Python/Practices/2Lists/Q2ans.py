@@ -4,10 +4,12 @@ Create a list of numbers.
 Use .sort() to sort it in ascending order, then use .reverse() to show it in descending order.
 '''
 
+#Create the list
 list = [1, 4, 2, 6, 23, 6, 2, 67]
+#Sort them
 list.sort()
 print(list)
-
+#Reverse the sort
 list.reverse()
 print(list)
 

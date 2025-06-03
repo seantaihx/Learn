@@ -5,7 +5,9 @@ Print the word with spaces removed.
 '''
 
 print('\n')
+#Get user input
 word = input("Enter a word with space before and after a word: ")
+#Clear the space before and after the word
 word = word.strip()
 print("Now it has no space before and after the word, {}".format(word))
 print('\n')
