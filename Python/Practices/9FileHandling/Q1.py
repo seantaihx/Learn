@@ -1,0 +1,1 @@
+'''Create a program that opens a file named Q1ans.txt and prints its contents.'''
