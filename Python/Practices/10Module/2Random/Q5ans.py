@@ -13,8 +13,9 @@ def generate_password(length=12):
     password = ''.join(rd.choices(chars, k=length))
     return password
 
-
 print("Generated password:", generate_password())
+
+
 
 '''SAMPLE OUTPUT
 @seantaihx ➜ .../Python/Practices/10Module/2Random (main) $ python Q5ans.py
